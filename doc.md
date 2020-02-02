@@ -8,8 +8,8 @@
 3. 安装git工具 
     - sudo apt-get install git -y
 4. 配置用户名与邮箱
-    - git config -user.name "你的用户名"
-    - git config -user.mail "你的邮箱"
+    - git config --global user.name "你的用户名"
+    - git config --global user.mail "你的邮箱"
 
 
 # GIT 命令
