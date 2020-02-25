@@ -10,6 +10,8 @@
 4. 配置用户名与邮箱
     - git config --global user.name "你的用户名"
     - git config --global user.mail "你的邮箱"
+5. 克隆仓库到本地
+    - git clone + 仓库的SSH(使用SSH验证以后,不需要每次提交或者下拉操作都输入一次邮箱和密码)
 
 
 # GIT 命令
