@@ -6,12 +6,15 @@
     - .pub文件就是生成的公钥
     - 在Github中找到  Settings ->SSH and GPG keys ->new SSH key ->    复制公钥字符串到key文本框
 3. 安装git工具 
-    - sudo apt-get install git -y
+    - $sudo apt-get install git -y
 4. 配置用户名与邮箱
-    - git config --global user.name "你的用户名"
-    - git config --global user.mail "你的邮箱"
-5. 克隆仓库到本地
-    - git clone + 仓库的SSH(使用SSH验证以后,不需要每次提交或者下拉操作都输入一次邮箱和密码)
+    - $git config --global user.name "你的用户名"
+    - $git config --global user.mail "你的邮箱"
+5. 检验是否连接成功
+    - $ ssh git@github.com
+验证是不是添加成功。
+6. 克隆仓库到本地
+    - $git clone + 仓库的SSH(使用SSH验证以后,不需要每次提交或者下拉操作都输入一次邮箱和密码)
 
 
 # GIT 命令
